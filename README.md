@@ -4,7 +4,8 @@ Congratulations and welcome to the software engineering world of GitHub and your
 
 Title: Money, money, money
 
-Terms: currency format - 0 hundreds, 5 tens, 2 ones, 1 quarter, 1 dime, 0 nickels, 0 pennies
+Terms: 
+-  currency format - 0 hundreds, 5 tens, 2 ones, 1 quarter, 1 dime, 0 nickels, 0 pennies
 -  dollar format - $52.35
 -  float format - 52.35
 -  check format - fifty two dollars and 35 cents
@@ -16,7 +17,7 @@ Problem: Money can be represented in various formats. For example, $52.35, fifty
 3. take in the float format, output in check format
 4. take in the amount given by the customer in either float or currency format and the cost of the transaction in float format, output the change to be given to the customer in currency format
 
-Here is some sample test data:
+Sample test data:
 ```
 currency 0 5 2 1 1 0 0
 currency 3 8 0 0 99 1 3
@@ -30,7 +31,7 @@ change 5 .99
 change 100 .01
 ```
 
-The output should be:
+Sample output:
 ```
 $52.35
 $389.98
