@@ -12,7 +12,7 @@ Congratulations and welcome to the software engineering world of GitHub and your
 7 tens
 4 ones
 0 quarters
-1 dime
+1 dimes
 0 nickels
 3 pennies
 
