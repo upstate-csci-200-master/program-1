@@ -25,7 +25,8 @@ float 427.99
 float 25.33
 check 32.18
 check 100
-change 100.00 52.17
+change-float 100.00 52.17
+change-currency 1 0 0 0 0 0 0 52.17
 currency 1 1 1 1 1 1 1
 change 5 .99
 change 100 .01
@@ -33,16 +34,17 @@ change 100 .01
 
 Sample output:
 ```
-$52.35
-$389.98
-4 hundreds 2 tens 7 dollars 3 quarters 2 dimes 0 nickels 4 pennies
-0 hundreds 2 tens 5 dollars 1 quarters 0 dimes 1 nickels 3 pennies
-32 dollars and 18 cents
-100 dollars and 0 cents
-0 hundreds 4 tens 7 dollars 3 quarters 0 dimes 1 nickels 3 pennies
-$111.41
-0 hundreds 0 tens 4 dollars 0 quarters 0 dimes 0 nickels 1 pennies
-0 hundreds 9 tens 9 dollars 3 quarters 2 dimes 0 nickels 4 pennies
+0 hundreds 5 tens 2 ones 1 quarters 1 dimes 0 nickels 0 pennies = $52.35
+3 hundreds 8 tens 0 ones 0 quarters 99 dimes 1 nickels 3 pennies = $389.98
+427.99 = 4 hundreds 2 tens 7 dollars 3 quarters 2 dimes 0 nickels 4 pennies
+25.33 = 0 hundreds 2 tens 5 dollars 1 quarters 0 dimes 1 nickels 3 pennies
+check for $32.18 = 32 dollars and 18 cents
+check for $100.00 = 100 dollars and 0 cents
+change back on $100.00 is 47.83 which is 0 hundreds 4 tens 7 dollars 3 quarters 0 dimes 1 nickels 3 pennies
+change back on $100.00 is 47.83 which is 0 hundreds 4 tens 7 dollars 3 quarters 0 dimes 1 nickels 3 pennies
+1 hundreds 1 tens 1 dollars 1 quarters 1 dimes 1 nickels 1 pennies = $111.41
+change back on $5.00 is 4.01 which is 0 hundreds 0 tens 4 dollars 0 quarters 0 dimes 0 nickels 1 pennies
+change back on $100.00 is 99.99 0 hundreds 9 tens 9 dollars 3 quarters 2 dimes 0 nickels 4 pennies
 ```
 
 - [ ] For a grade of A your program must support currency, float, change
