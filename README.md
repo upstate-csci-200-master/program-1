@@ -1,4 +1,4 @@
-# program-1
+# program-1 - money, money, money!
 Congratulations and welcome to the software engineering world of GitHub and your first CS1 programming assignment. This readme file contains the details of of the problem you are asked to solve on this assignment. Of course you are to solve this using the Java programming language. 
 
 55.24 74.13
