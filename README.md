@@ -72,8 +72,8 @@ change back on $100.00 is 99.99 0 hundreds 9 tens 1 fives 4 ones 3 quarters 2 di
 ```
 **Be sure to take notice of the output format for each command. Your program must follow the exact format presented above.** 
 
-- [ ] For a grade of A your program must support change-float, change-currency, float, change
-- [ ] For a grade of B your program must support change-currency, currency, float
+- [ ] For a grade of A your program must support change-float, change-change, float, change
+- [ ] For a grade of B your program must support change-change, currency, float
 - [ ] For a grade of C your program must support change-float, float
 - [ ] For extra credit your program must support everything
 
