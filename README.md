@@ -21,7 +21,7 @@ The currency in each store consists of only hundreds, tens, ones, quarters, dime
 5. when you see the word "change-float" take in the amount given by the customer in float format and the cost of the transaction in float format, output the amount to be given to the customer in dollar and change format
 
 In the repository you will find 2 starting files along with several test files as follows:
-1. testMoney.java - the main test driver that handles reading in the command and calling the appropriate money method
+1. moneyTest.java - the main test driver that handles reading in the command and calling the appropriate money method
 2. Money.java - the Money class which is where you will place all of your code
 3. testFloat.txt - several "float" command tests
 4. testChange.txt - several "change" command tests
