@@ -1,0 +1,8 @@
+check
+1.00
+check
+999.99
+check
+0.52
+check
+1234.56

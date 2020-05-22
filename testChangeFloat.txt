@@ -1,0 +1,12 @@
+change-float
+100.00 52.17
+change-float
+5 .99
+change-float
+100 .01
+change-float
+3993388.00 123456.78
+change-float
+100.00 100.00
+change-float
+10000.00 567.35

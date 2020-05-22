@@ -1,0 +1,10 @@
+float
+427.99
+float
+25.33
+float
+39227.48
+float
+0.01
+float
+29355.99
